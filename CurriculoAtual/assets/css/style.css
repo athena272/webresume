@@ -22,8 +22,25 @@ font-family: 'Open Sans', sans-serif;
 
 */
 
-/* Resetar ESTILOS GERAIS */ 
-html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+/* Resetar ESTILOS GERAIS */
+html,
+body,
+figure,
+img,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,139 +48,155 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
 }
 
-.coluna{
+.coluna {
     flex-basis: 49%;
 }
 
-:root{
-    --corBackgroundPrimaria: #310D20; 
+:root {
+    --corBackgroundPrimaria: #310D20;
     --corBackgroundSecundaria: #310D20;
-    --corBackgroundDark:#0e0e0e;
-    --corTextPrimaria:#636363;
-    --corTextoSecudaria:#000;
+    --corBackgroundDark: #0e0e0e;
+    --corTextPrimaria: #636363;
+    --corTextoSecudaria: #000;
 
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 
 /* BODY */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 /* HEADER */
-header{
+header {
     background-color: var(--corBackgroundPrimaria);
     padding: 30px 30px 0;
 }
-header .container{
+
+header .container {
     background-color: white;
     border-radius: 1rem 1rem 0rem 0rem;
 }
-header .linha{
+
+header .linha {
     align-items: center;
 }
-header .coluna-esquerda{
+
+header .coluna-esquerda {
     flex-basis: 30%;
 }
 
-header .coluna-direita{
+header .coluna-direita {
     flex-basis: 60%;
     text-align: center;
 }
 
-header .coluna img{
+header .coluna img {
     max-width: 100%;
     border-radius: 1rem;
 }
-header .coluna h1{
+
+header .coluna h1 {
     font-size: 1.5rem;
-    color:var(--corTextoSecudaria);
+    color: var(--corTextoSecudaria);
 }
-header .coluna p{
+
+header .coluna p {
     font-size: 1rem;
-    color:var(--corTextPrimaria);
+    color: var(--corTextPrimaria);
 }
-header .coluna ul{
+
+header .coluna ul {
     margin: 16px 0 0;
 }
-header .coluna ul li{
+
+header .coluna ul li {
     margin: 0 0 12px;
 }
-header .coluna ul li a{
+
+header .coluna ul li a {
     font-size: 1rem;
-    color:var(--corTextoSecudaria);
+    color: var(--corTextoSecudaria);
 }
 
 
 /* FOOTER */
-footer{
-    background-color:var(--corBackgroundSecundaria);
+footer {
+    background-color: var(--corBackgroundSecundaria);
 }
-footer .container{
+
+footer .container {
     padding: 20px;
 }
-footer nav ul li a{
+
+footer nav ul li a {
     color: white;
 }
 
-footer nav .info-contato li{
+footer nav .info-contato li {
     margin: 0 0 15px;
 }
 
-footer nav .redes-sociais{
+footer nav .redes-sociais {
     border-top: 1px solid rgb(255 255 255 / 20%);
     margin: 20px 0 50px;
     padding: 50px 0 0;
     text-align: center;
 }
-footer nav .redes-sociais li{
+
+footer nav .redes-sociais li {
     margin: 15px 28px;
     text-align: center;
     display: inline-block;
 }
 
-footer nav .redes-sociais li a img{
+footer nav .redes-sociais li a img {
     width: 40px;
     transition: .2s;
 }
-footer nav .redes-sociais li a:hover img{
+
+footer nav .redes-sociais li a:hover img {
     transform: scale(1.2) translateY(-10px);
 }
 
 
 /* PÁGINA INICIAL */
-main .coluna{
+main .coluna {
     padding: 20px;
 }
-main .coluna section{
+
+main .coluna section {
     border-bottom: 1px solid #d4e9ff;
     margin: 0 0 20px;
     min-height: 187px;
-    color:var(--corTextoSecudaria);
+    color: var(--corTextoSecudaria);
 }
 
-main .coluna section h2{
+main .coluna section h2 {
     font-size: 1.3rem;
     margin: 0 0 15px;
 }
-main .coluna section p{
+
+main .coluna section p {
     font-size: 0.9rem;
     color: var(--corTextPrimaria);
     line-height: 1.5;
 }
 
-main .coluna section ul li{
+main .coluna section ul li {
     margin: 0 0 12px;
 }
-main .coluna section ul li h3{
+
+main .coluna section ul li h3 {
     font-size: 1.1rem;
 }
-main .coluna section ul li strong{
+
+main .coluna section ul li strong {
     font-size: 0.9rem;
     font-weight: 500;
     margin: 5px 0 10px;
@@ -172,15 +205,17 @@ main .coluna section ul li strong{
 
 
 /* EXTRAS */
-.ativar-dark{
+.ativar-dark {
     width: 50px;
     height: 50px;
     display: none;
 }
-header .container{
+
+header .container {
     position: relative;
 }
-label{
+
+label {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -192,7 +227,8 @@ label{
     box-sizing: border-box;
     cursor: pointer;
 }
-label span{
+
+label span {
     width: 20px;
     height: 20px;
     display: block;
@@ -201,49 +237,56 @@ label span{
     transition: all ease .3s;
 }
 
-.ativar-dark:checked ~ .dark-mode label{
+.ativar-dark:checked~.dark-mode label {
     background-color: #d4e9ff;
 }
-.ativar-dark:checked ~ .dark-mode label span{
+
+.ativar-dark:checked~.dark-mode label span {
     background-color: var(--corBackgroundSecundaria);
     /* margin-left: 21px; */
     transform: translateX(21px);
     transition: all ease .3s;
 }
 
-.ativar-dark:checked ~ .dark-mode{
+.ativar-dark:checked~.dark-mode {
     --corBackgroundPrimaria: #000;
     --corBackgroundSecundaria: #000;
-    --corTextPrimaria:#fff;
-    --corTextoSecudaria:#fff;
+    --corTextPrimaria: #fff;
+    --corTextoSecudaria: #fff;
 }
-.ativar-dark:checked ~ .dark-mode header{
-    background-color:var(--corBackgroundSecundaria) ;
-}
-.ativar-dark:checked ~ .dark-mode header .container{
-    background-color:var(--corBackgroundDark) ;
-}
-.ativar-dark:checked ~ .dark-mode  .container{
-    background-color:var(--corBackgroundDark) ;
-}
-.ativar-dark:checked ~ .dark-mode main{
-    background-color:var(--corBackgroundSecundaria) ;
-} 
 
-@keyframes aumentarLargura{
-    from{
+.ativar-dark:checked~.dark-mode header {
+    background-color: var(--corBackgroundSecundaria);
+}
+
+.ativar-dark:checked~.dark-mode header .container {
+    background-color: var(--corBackgroundDark);
+}
+
+.ativar-dark:checked~.dark-mode .container {
+    background-color: var(--corBackgroundDark);
+}
+
+.ativar-dark:checked~.dark-mode main {
+    background-color: var(--corBackgroundSecundaria);
+}
+
+@keyframes aumentarLargura {
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 100%;
     }
 }
 
-@keyframes aumentarAltura{
-    from{
+@keyframes aumentarAltura {
+    from {
         height: 0;
     }
-    to{
+
+    to {
         height: 100%;
     }
 }
@@ -251,47 +294,55 @@ label span{
 
 
 /* @MEDIA */
-@media only screen and (min-width: 768px){
-    .linha{
+@media only screen and (min-width: 768px) {
+    .linha {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
     }
+
     footer nav .redes-sociais {
         display: flex;
         justify-content: center;
     }
-    header{
+
+    header {
         padding: 30px 0 0;
     }
-    header .coluna img{
+
+    header .coluna img {
         max-width: 250px;
         border-radius: 10%;
     }
-    .container{
+
+    .container {
         width: 100%;
         max-width: 1125px;
         margin: 0 auto;
         padding: 30px;
     }
-    header .coluna-direita{
+
+    header .coluna-direita {
         text-align: left;
     }
-    main .coluna section{
+
+    main .coluna section {
         /* border: 2px solid #d4e9ff; */
         border: 2px solid transparent;
         padding: 20px;
         position: relative;
     }
-    main .coluna section span{
+
+    main .coluna section span {
         position: absolute;
         display: block;
         width: 0;
         height: 0;
         border: 2px solid transparent;
     }
-    main .coluna section .topo-direita{
+
+    main .coluna section .topo-direita {
         top: -2px;
         left: -2px;
         animation-name: aumentarLargura, aumentarAltura;
@@ -301,7 +352,8 @@ label span{
         border-top-color: #d4e9ff;
         border-right-color: #d4e9ff;
     }
-    main .coluna section .baixo-esquerda{
+
+    main .coluna section .baixo-esquerda {
         bottom: -2px;
         right: -2px;
         animation-name: aumentarLargura, aumentarAltura;
@@ -311,20 +363,22 @@ label span{
         border-bottom-color: #d4e9ff;
         border-left-color: #d4e9ff;
     }
-    main .coluna{
+
+    main .coluna {
         padding: 0;
     }
-    footer nav .redes-sociais li{
-        margin: 0  14px;
+
+    footer nav .redes-sociais li {
+        margin: 0 14px;
         text-align: center;
         display: initial;
     }
-    
+
 }
 
-@media only screen and (min-width: 991px){
+@media only screen and (min-width: 991px) {
 
-    header .coluna-direita{
+    header .coluna-direita {
         flex-basis: 70%;
     }
 }
