@@ -53,6 +53,9 @@ main {
 }
 
 :root {
+    /* Pulo do gato */
+    /* 1rem = 16px (User Agent) = 100% (User Agent) */
+    font-size: 62.5%;/* 10px */
     --corBackgroundPrimaria: #310D20;
     --corBackgroundSecundaria: #310D20;
     --corBackgroundDark: #0e0e0e;
@@ -75,7 +78,7 @@ body {
 /* HEADER */
 header {
     background-color: var(--corBackgroundPrimaria);
-    padding: 30px 30px 0;
+    padding: 3rem 3rem 0;
 }
 
 header .container {
@@ -112,11 +115,11 @@ header .coluna p {
 }
 
 header .coluna ul {
-    margin: 16px 0 0;
+    margin: 1.6rem 0 0;
 }
 
 header .coluna ul li {
-    margin: 0 0 12px;
+    margin: 0 0 1.2rem;
 }
 
 header .coluna ul li a {
@@ -131,7 +134,7 @@ footer {
 }
 
 footer .container {
-    padding: 20px;
+    padding: 2rem;
 }
 
 footer nav ul li a {
@@ -139,7 +142,7 @@ footer nav ul li a {
 }
 
 footer nav .info-contato li {
-    margin: 0 0 15px;
+    margin: 0 0 1.5rem;
 }
 
 footer nav .redes-sociais {
