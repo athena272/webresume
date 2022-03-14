@@ -53,9 +53,6 @@ main {
 }
 
 :root {
-    /* Pulo do gato */
-    /* 1rem = 16px (User Agent) = 100% (User Agent) */
-    font-size: 62.5%;/* 10px */
     --corBackgroundPrimaria: #310D20;
     --corBackgroundSecundaria: #310D20;
     --corBackgroundDark: #0e0e0e;
@@ -78,7 +75,7 @@ body {
 /* HEADER */
 header {
     background-color: var(--corBackgroundPrimaria);
-    padding: 3rem 3rem 0;
+    padding: 30px 30px 0;
 }
 
 header .container {
@@ -115,11 +112,11 @@ header .coluna p {
 }
 
 header .coluna ul {
-    margin: 1.6rem 0 0;
+    margin: 16px 0 0;
 }
 
 header .coluna ul li {
-    margin: 0 0 1.2rem;
+    margin: 0 0 12px;
 }
 
 header .coluna ul li a {
@@ -134,7 +131,7 @@ footer {
 }
 
 footer .container {
-    padding: 2rem;
+    padding: 20px;
 }
 
 footer nav ul li a {
@@ -142,47 +139,47 @@ footer nav ul li a {
 }
 
 footer nav .info-contato li {
-    margin: 0 0 1.5rem;
+    margin: 0 0 15px;
 }
 
 footer nav .redes-sociais {
-    border-top: 0.1rem solid rgb(255 255 255 / 20%);
-    margin: 2rem 0 5rem;
-    padding: 5rem 0 0;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
     text-align: center;
 }
 
 footer nav .redes-sociais li {
-    margin: 1.5rem 2.8rem;
+    margin: 15px 28px;
     text-align: center;
     display: inline-block;
 }
 
 footer nav .redes-sociais li a img {
-    width: 4rem;
+    width: 40px;
     transition: .2s;
 }
 
 footer nav .redes-sociais li a:hover img {
-    transform: scale(1.2) translateY(-1rem);
+    transform: scale(1.2) translateY(-10px);
 }
 
 
 /* PÁGINA INICIAL */
 main .coluna {
-    padding: 2rem;
+    padding: 20px;
 }
 
 main .coluna section {
-    border-bottom: 0.1rem solid #d4e9ff;
-    margin: 0 0 2rem;
-    min-height: 18.7rem;
+    border-bottom: 1px solid #d4e9ff;
+    margin: 0 0 20px;
+    min-height: 187px;
     color: var(--corTextoSecudaria);
 }
 
 main .coluna section h2 {
     font-size: 1.3rem;
-    margin: 0 0 1.5rem;
+    margin: 0 0 15px;
 }
 
 main .coluna section p {
@@ -192,7 +189,7 @@ main .coluna section p {
 }
 
 main .coluna section ul li {
-    margin: 0 0 1.2rem;
+    margin: 0 0 12px;
 }
 
 main .coluna section ul li h3 {
@@ -202,15 +199,15 @@ main .coluna section ul li h3 {
 main .coluna section ul li strong {
     font-size: 0.9rem;
     font-weight: 500;
-    margin: 0.5rem 0 1rem;
+    margin: 5px 0 10px;
     display: inline-block;
 }
 
 
 /* EXTRAS */
 .ativar-dark {
-    width: 5rem;
-    height: 5rem;
+    width: 50px;
+    height: 50px;
     display: none;
 }
 
@@ -220,20 +217,20 @@ header .container {
 
 label {
     position: absolute;
-    top: 3rem;
-    right: 3rem;
-    width: 5.2rem;
-    height: 3rem;
+    top: 30px;
+    right: 30px;
+    width: 52px;
+    height: 30px;
     background-color: var(--corBackgroundSecundaria);
-    border-radius: 2rem;
-    padding: 0.5rem 0.5rem;
+    border-radius: 20px;
+    padding: 5px 5px;
     box-sizing: border-box;
     cursor: pointer;
 }
 
 label span {
-    width: 2rem;
-    height: 2rem;
+    width: 20px;
+    height: 20px;
     display: block;
     background-color: #d4e9ff;
     border-radius: 100%;
@@ -247,7 +244,7 @@ label span {
 .ativar-dark:checked~.dark-mode label span {
     background-color: var(--corBackgroundSecundaria);
     /* margin-left: 21px; */
-    transform: translateX(2.1rem);
+    transform: translateX(21px);
     transition: all ease .3s;
 }
 
@@ -297,7 +294,7 @@ label span {
 
 
 /* @MEDIA */
-@media only screen and (min-width: 76.8rem) {
+@media only screen and (min-width: 768px) {
     .linha {
         display: flex;
         flex-wrap: wrap;
@@ -311,17 +308,17 @@ label span {
     }
 
     header {
-        padding: 3rem 0 0;
+        padding: 30px 0 0;
     }
 
     header .coluna img {
-        max-width: 25rem;
+        max-width: 250px;
         border-radius: 10%;
     }
 
     .container {
         width: 100%;
-        max-width: 112.5rem;
+        max-width: 1125px;
         margin: 0 auto;
         padding: 30px;
     }
@@ -332,8 +329,8 @@ label span {
 
     main .coluna section {
         /* border: 2px solid #d4e9ff; */
-        border: 0.2rem solid transparent;
-        padding: 2rem;
+        border: 2px solid transparent;
+        padding: 20px;
         position: relative;
     }
 
@@ -342,12 +339,12 @@ label span {
         display: block;
         width: 0;
         height: 0;
-        border: 0.2rem solid transparent;
+        border: 2px solid transparent;
     }
 
     main .coluna section .topo-direita {
-        top: -0.2rem;
-        left: -0.2rem;
+        top: -2px;
+        left: -2px;
         animation-name: aumentarLargura, aumentarAltura;
         animation-duration: 1s, 1s;
         animation-delay: 2s, 3s;
@@ -357,8 +354,8 @@ label span {
     }
 
     main .coluna section .baixo-esquerda {
-        bottom: -0.2rem;
-        right: -0.2rem;
+        bottom: -2px;
+        right: -2px;
         animation-name: aumentarLargura, aumentarAltura;
         animation-duration: 1s, 1s;
         animation-delay: 4s, 5s;
@@ -372,7 +369,7 @@ label span {
     }
 
     footer nav .redes-sociais li {
-        margin: 0 1.4rem;
+        margin: 0 14px;
         text-align: center;
         display: initial;
     }
