@@ -5,7 +5,7 @@ https://athena272.github.io/WebResume/index.html
 
 Normal Mode
 
-![image](https://user-images.githubusercontent.com/58920070/158103169-80e473de-327a-43b4-965a-d87189cfabbe.png)
+![image](https://user-images.githubusercontent.com/58920070/159257050-f5ea404e-dd82-4e01-a47d-4a0c341564d6.png)
 
 Dark Mode
 
