@@ -171,7 +171,7 @@ main .coluna {
 }
 
 main .coluna section {
-    border-bottom: 1px solid #d4e9ff;
+    border-bottom: 1px solid #0063cc;
     margin: 0 0 20px;
     min-height: 187px;
     color: var(--corTextoSecudaria);
@@ -238,7 +238,7 @@ label span {
 }
 
 .ativar-dark:checked~.dark-mode label {
-    background-color: #d4e9ff;
+    background-color: #0063cc;
 }
 
 .ativar-dark:checked~.dark-mode label span {
@@ -328,7 +328,6 @@ label span {
     }
 
     main .coluna section {
-        /* border: 2px solid #d4e9ff; */
         border: 2px solid transparent;
         padding: 20px;
         position: relative;
@@ -349,8 +348,8 @@ label span {
         animation-duration: 1s, 1s;
         animation-delay: 2s, 3s;
         animation-fill-mode: forwards;
-        border-top-color: #d4e9ff;
-        border-right-color: #d4e9ff;
+        border-top-color: #0063cc;
+        border-right-color: #0063cc;
     }
 
     .tecnologia{
@@ -369,8 +368,8 @@ label span {
         animation-duration: 1s, 1s;
         animation-delay: 4s, 5s;
         animation-fill-mode: forwards;
-        border-bottom-color: #d4e9ff;
-        border-left-color: #d4e9ff;
+        border-bottom-color: #0063cc;
+        border-left-color: #0063cc;
     }
 
     main .coluna {
