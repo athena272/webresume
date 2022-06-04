@@ -238,7 +238,7 @@ label span {
 }
 
 .ativar-dark:checked~.dark-mode label {
-    background-color: #0063cc;
+    background-color: #d4e9ff;
 }
 
 .ativar-dark:checked~.dark-mode label span {
