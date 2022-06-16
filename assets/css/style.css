@@ -142,6 +142,15 @@ footer nav .info-contato li {
     margin: 0 0 15px;
 }
 
+footer nav .footerAnchor {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
 footer nav .redes-sociais {
     border-top: 1px solid rgb(255 255 255 / 20%);
     margin: 20px 0 50px;
