@@ -65,6 +65,10 @@ main {
     display: none;
 }
 
+html {
+    /* chrome://flags/#smooth-scrolling */
+    scroll-behavior: smooth;
+}
 
 /* BODY */
 body {
