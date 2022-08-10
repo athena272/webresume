@@ -1,6 +1,6 @@
 # WebResume. My curriculum on a web page
  
-Link to my Web Resume: <a href="https://athena272.github.io/WebResume/index.html" target="_blank">Guilherme Resume</a> 
+Link to my Web Resume: <a href="https://athena272.github.io/webresume/index.html" target="_blank">Guilherme Resume</a> 
 
 Normal Mode
 
